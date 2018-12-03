@@ -1,4 +1,4 @@
-package be.borgers.aoc.day1
+package be.borgers.aoc
 
 import be.borgers.aoc.util.getInputAsInts
 
