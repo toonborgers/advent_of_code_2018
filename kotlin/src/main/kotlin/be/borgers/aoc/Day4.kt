@@ -1,7 +1,7 @@
 package be.borgers.aoc
 
-import be.borgers.aoc.Util.DATE_TIME_FORMATTER
-import be.borgers.aoc.Util.guardId
+import be.borgers.aoc.Util4.DATE_TIME_FORMATTER
+import be.borgers.aoc.Util4.guardId
 import be.borgers.aoc.util.getInput
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
@@ -65,7 +65,7 @@ private fun parseInput(): MutableMap<Int, MutableMap<Int, Int>> {
     return result
 }
 
-object Util {
+object Util4 {
     val DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")!!
     private val GUARD_ID_PATTERN = Pattern.compile("(\\d+)")!!
 
